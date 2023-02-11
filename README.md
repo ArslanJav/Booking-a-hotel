@@ -6,15 +6,21 @@ as well as an option to choose a room at £100 per night rate.
 ## display example:
 
 JOHN
+<br>
 Twin Room
+<br>
 Total cost of your stay is £300
 
 ## display example when discount is applied:
 
 JOHN
+<br>
 Superior Double Room
+<br>
 8 nights @ £100 per night
+<br>
 Cost of stay £800- £80 discount!!!
+<br>
 Total cost now is £720
 
 ![screencapture-127-0-0-1-5500-bookHotel-html-2023-02-11-19_05_26](https://user-images.githubusercontent.com/80915650/218277322-36c28eb9-9679-4a5f-b06b-95e2a77e7ff1.jpg)
