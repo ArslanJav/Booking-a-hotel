@@ -1,0 +1,98 @@
+body{
+	font-family: 'Open Sans Condensed'sans-serif;
+	color: #000;
+	width:30%;
+	padding:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background-color:#006272;
+	color:#fff;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#container{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+img, form{
+	width:100%;
+	display: block;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+
+}
+
+input[type=text], input[type=number]{
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	font-size: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+	color: #D85E00;
+	border: 1px dashed #B00000;
+	padding: 1em 10px;
+	box-sizing: border-box;
+	display: none;
+
+}
+
+
+
+button{
+	padding:10px;
+	background-color: #010B7B;
+	color:#000;
+	border:none;
+	margin-top: 10px;
+	margin:auto;
+	text-transform: uppercase;
+    background: #ffffff;
+	padding: 20px;
+	border: 4px solid #20bf6b;
+	display:block;
+	cursor: pointer;
+}
+    
+button:hover {
+	color: #fff;
+	background: #f6b93b;
+	border-color: #f6b93b;
+	transition: all 0.4s ease 0s;
+}   
+   
+select{
+	font-family: 'Roboto', sans-serif;
+	width:100%;
+	font-size: 80%;
+ 	background-color:#fff;
+ 	border:1px solid #ccc;
+	border-radius:3px;
+	height:2.5em;
+	
+	
+	
+	margin-top: 8px;
+	margin-bottom:30px;
+
+} 

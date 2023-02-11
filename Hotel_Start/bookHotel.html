@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Booking a Hotel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="css/hotelStyles.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>HOTEL RAMBLAS</header>
+	<div id="container">
+		<img id="photo" src="images/hotel.jpg" alt="hotel sign">
+
+		<form id="booking" method="POST">
+
+			<input type="text" id="customername" placeholder="Name" autofocus required>
+			<input type="number" id="nights" placeholder="Number of nights" min="1" required>
+		</form>
+
+		<label for="rooms">Available rooms:</label>
+		<select id="rooms" name="rooms" onchange="roomchanged()">
+		  <option value="Choose a Room">Choose a Room...</option>
+		  <option value="Single Room">Single Room</option>
+		  <option value="Twin Room">Twin Room</option>
+		  <option value="Double Room">Double Room</option>
+		  <option value="Superior Double Room">Superior Double Room</option>
+		  <option value="Triple Room">Triple Room</option>
+		</select>
+
+		<button id="Book">Book Now</button>
+	</div>
+
+	<p id="details"></p>
+
+
+    
+     <script src="js/hotelScript.js"></script> 
+    
+  </body>
+</html>
