@@ -33,4 +33,4 @@ now if the number of nights is 7 but no more than 14 there will be a discount of
 
 and if the number of nights is 14 or more there will be a 1discount of 15% added.
 
-## Preview Link: https://fastidious-shortbread-08a612.netlify.app
+## Preview Link: <a href "https://fastidious-shortbread-08a612.netlify.app" target="_blank">
